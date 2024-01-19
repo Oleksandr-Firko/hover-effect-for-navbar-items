@@ -37,6 +37,7 @@ nav {
   height: 3px;
   background-color: aqua;
   border-radius: 5px;
+  visibility: hidden;
 }
 
 .nav-bar-button-item a::after {
@@ -48,6 +49,7 @@ nav {
   height: 3px;
   background-color: aqua;
   border-radius: 5px;
+  visibility: hidden;
 }
 
 .nav-bar-button-item a:hover {
@@ -69,6 +71,7 @@ nav {
 
   100% {
     left: -5px;
+    visibility: visible;
   }
 }
 
@@ -79,5 +82,6 @@ nav {
 
   100% {
     left: -4px;
+    visibility: visible;
   }
 }
